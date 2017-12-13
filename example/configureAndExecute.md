@@ -1,18 +1,17 @@
-# PKI-Client-Mutual-Auth
-Sample to create PKI client authentication with validation and RBAC authorization with mutual authentication enforcement. This document shows an example of the setup and testing of this policy.
+# MFA-Directory-Lookup-User-Token
+Sample to create a multifactor authentication policy that queries user attributes and returns them to the requestor.
 
 ## Prerequisites
 
 To follow this example you will need the following:
 
 - A client public/private key pair with a single depth level.
-- The issuer public certificate.
+- The issuer public certificate configured for mututal authentication.
 - A directory to lookup customer attributes.
 - The policy export file that is part of this repository.
 - Basic working knowledge of the Axway API Gateway software and Policy Studio.
 
-A sample single depth client-issuer relationship can be seen here:
-![alt text](https://github.com/Axway-API-Management-Plus/PKI_Client_Mutual_Auth/blob/master/example/src/certificateChain.png "Certificate and Issuer")
+Step-by-Step mutual auth configuration can be found here: https://marketplace.axway.com/apps/187190#!overview
 
 ## Step By Step
 
