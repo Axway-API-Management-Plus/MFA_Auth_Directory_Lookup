@@ -21,8 +21,8 @@ The basic policy flow is as follows:
 
 These last two filters are mostly for research or debug purposes. Generally user information would be passed to an authorization server, used to create a security token, or to populate application requests as part of API Gateway integration or orchestration initatives.
 
-Once updated to fit your environment, this policy can be used in several ways:
-- As a standalone authentication, authorization, and validation service for PKI by assigning it a relative path in Policy Studio where it can be reached.
+Once updated to fit your environment and by removing the set message and response filters, this policy can be used in several ways:
+- As a standalone authentication policy by assigning it a relative path in Policy Studio where it can be reached.
 - It can be called as a policy shortcut as part of other policies created in Policy Studio.
 - It can be registered as a REST API via either the API Gateway Rest API Repository  configuration in Policy Studio or by creating a new API in API Manager.
 - It can be registered as an Inbound Security Policy for use within API Manager via 'Server Settings --> API Manager --> Inbound Security Policies' in Policy Studio.
