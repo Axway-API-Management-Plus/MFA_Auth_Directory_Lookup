@@ -21,7 +21,7 @@ The basic policy flow is as follows:
 
 - **Set Message**: This filter, renamed "Create JSON user attribute token", takes an application/json content type message or token schema, and dynamically populates it with values retrieved from the user attribute directory search.
 
-![alt text](https://github.com/Axway-API-Management-Plus/MFA_Auth_Directory_Lookup/blob/master/example/src/JSONMessage.png "Set JSON Token"
+![alt text](https://github.com/Axway-API-Management-Plus/MFA_Auth_Directory_Lookup/blob/master/example/src/JSONMessage.png "Set JSON Token")
 
 - **Reflect Message**: This filter reflects the configured message back to the requestor.
 
