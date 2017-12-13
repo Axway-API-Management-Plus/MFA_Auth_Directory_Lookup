@@ -27,6 +27,10 @@ Step-by-Step mutual auth configuration can be found here: https://marketplace.ax
 
 5. Log into the API Gateway Manager (https://HOST:8090), navigate to the Traffic Monitor, and review the policy execution and MFA steps.
 
+## Additional Things to Try
+
+Once this is working, you may wish to try creating SAML or JWT tokens using the attributes you looked up. When gathering user attributes, often they can be reused across multiple resoures. You can also try setting up a cache store, lookup, and retrieve policy set using the collected attributes.
+
 ## API Management Version Compatibility
 This artefact was successfully tested for the following versions:
 - V7.5.3
