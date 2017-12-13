@@ -16,7 +16,7 @@ Step-by-Step mutual auth configuration can be found here: https://marketplace.ax
 ## Step By Step
 
 1. In Policy Studio, navigate to 'File --> Import --> Import Customization Fragment'. Select the policy fragment supplied in this repository. Resolve any dependency issues and complete import.
-![alt text](https://github.com/Axway-API-Management-Plus/MFA_Auth_Directory_Lookup/tree/master/example/src/importFrag.png "Import Policy Fragment")
+![alt text](https://github.com/Axway-API-Management-Plus/MFA_Auth_Directory_Lookup/blob/master/example/src/importFrag.png "Import Policy Fragment")
 2. Review the policy config and modify the policy to meet your environmental configuration as defined in this repo's readme.
 3. Deploy.
 4. Ensure your client certificate is available to your test client and execute a request against your new service. Select the appropriate client key and submit your username and password. Your service should echo back attributes from the directory as shown below.
