@@ -21,7 +21,7 @@ The basic policy flow is as follows:
 
 - **Set Message**: This filter, renamed "Create JSON user attribute token", takes an application/json content type message or token schema, and dynamically populates it with values retrieved from the user attribute directory search.
 
-![alt text](https://github.com/Axway-API-Management-Plus/MFA_Auth_Directory_Lookup/blob/master/example/src/JSONMessage.png "Set JSON Token
+![alt text](https://github.com/Axway-API-Management-Plus/MFA_Auth_Directory_Lookup/blob/master/example/src/JSONMessage.png "Set JSON Token"
 
 - **Reflect Message**: This filter reflects the configured message back to the requestor.
 
@@ -33,7 +33,7 @@ Once updated to fit your environment and by removing the set message and respons
 - It can be registered as a REST API via either the API Gateway Rest API Repository configuration in Policy Studio or by creating a new API in API Manager.
 - It can be registered as an Inbound Security Policy for use within API Manager via 'Server Settings --> API Manager --> Inbound Security Policies' in Policy Studio.
 
-## API Management Version ## API Management Version Compatibility
+## API Management Version Compatibility
 This artefact was successfully tested for the following versions:
 - V7.5.3
 
