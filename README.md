@@ -18,7 +18,7 @@ The basic policy flow is as follows:
 - **Retrieve from Directory Server**: This filter, renamed "Retrieve attributes from Directory Server", is configured to query a directory server post-user authentication to collect additional attributes about the associated user. These attributes can be used for a basic response, as shown in this sample policy, or for populating security tokens as part of a credential mediation service, such as SAML or JWT security tokens.
 ![alt text](https://github.com/Axway-API-Management-Plus/MFA_Auth_Directory_Lookup/blob/master/example/src/directoryScreenshot.png "Directory Attributes")
 - **Set Message**: This filter, renamed "Create JSON user attribute token", takes an application/json content type message or token schema, and dynamically populates it with values retrived from the user attribute directory search.
-![alt text](https://github.com/Axway-API-Management-Plus/MFA_Auth_Directory_Lookup/tree/master/example/src/JSONMessage.png "Set JSON Token")
+![alt text](https://github.com/Axway-API-Management-Plus/MFA_Auth_Directory_Lookup/blob/master/example/src/JSONMessage.png "Set JSON Token")
 - **Reflect Message**: This filter reflects the configured message back to the requestor.
 
 These last two filters are mostly for research or debug purposes. Generally user information would be passed to an authorization server, used to create a security token, or to populate application requests as part of API Gateway integration or orchestration initatives.
